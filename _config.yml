@@ -4,7 +4,7 @@
 
 # Site
 title: Zhang Shuai's Research Blog
-subtitle: 'In me the tiger sniffs the rose.'
+subtitle: 'Pursue science,need to have special courage,thinking is of the greatest human happiness.'
 description: ''
 keywords:
 author: Zhang Shuai
@@ -98,4 +98,6 @@ theme: octo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: 'git'
+  repository: https://github.com/ZZsh/researchblog.git
+  branch: run-page
